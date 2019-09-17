@@ -19,6 +19,7 @@ public class ActiTime_Login {
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		
 		driver.findElement(By.xpath("//div[.='Login ']")).click();
+		System.out.println("sangeetha");
 		
  
 
